@@ -68,7 +68,7 @@ var filmNames = [
     "Harry Potter",
     "Pirates of the Caribbean",
     "Star Wars",
-    "Spider-Man",
+    "Spider Man",
     "Avengers",
     "Shrek",
     "Finding Nemo",
@@ -149,7 +149,7 @@ function startGame() {
     selectedFilmEmojis = filmEmojisList[randomIndex];
     filmName = getFilmName(randomIndex);
 
-    // populate the board
+    // create the board
 
     for (let r = 0; r < rows; r++) {
         let row = []; // row (array) is created
